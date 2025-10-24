@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2025-10-24T01:04:29+00:00",
+  "generatedAt": "2025-10-24T22:48:31+00:00",
   "coins": [
+    {
+      "status": "ok",
+      "code": "CRIX.UPBIT.KRW-ORDER",
+      "pair": "ORDER/KRW",
+      "koreanName": "오덜리",
+      "englishName": "Orderly",
+      "listingDate": "2025-10-24",
+      "listingPrice": 461.0,
+      "currentPrice": 461.0,
+      "change": 0.0,
+      "prices": [
+        461.0
+      ],
+      "lastCandleAt": "2025-10-24T00:00:00+00:00",
+      "points": 1
+    },
     {
       "status": "ok",
       "code": "CRIX.UPBIT.KRW-CPOOL",
@@ -9,12 +25,12 @@
       "englishName": "Clearpool",
       "listingDate": "2025-10-22",
       "listingPrice": 154.0,
-      "currentPrice": 147.0,
-      "change": -4.545454545454546,
+      "currentPrice": 143.0,
+      "change": -7.142857142857142,
       "prices": [
         154.0,
         148.0,
-        147.0
+        143.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 3
@@ -27,13 +43,13 @@
       "englishName": "SynFutures",
       "listingDate": "2025-10-21",
       "listingPrice": 17.0,
-      "currentPrice": 24.4,
-      "change": 43.52941176470587,
+      "currentPrice": 35.1,
+      "change": 106.47058823529412,
       "prices": [
         17.0,
         20.7,
         22.9,
-        24.4
+        35.1
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 4
@@ -46,40 +62,17 @@
       "englishName": "Bio Protocol",
       "listingDate": "2025-10-20",
       "listingPrice": 154.0,
-      "currentPrice": 129.0,
-      "change": -16.233766233766232,
+      "currentPrice": 130.0,
+      "change": -15.584415584415584,
       "prices": [
         154.0,
         135.0,
         126.0,
         129.0,
-        129.0
+        130.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 5
-    },
-    {
-      "status": "ok",
-      "code": "CRIX.UPBIT.KRW-ZBT",
-      "pair": "ZBT/KRW",
-      "koreanName": "제로베이스",
-      "englishName": "ZEROBASE",
-      "listingDate": "2025-10-17",
-      "listingPrice": 643.0,
-      "currentPrice": 415.0,
-      "change": -35.45878693623639,
-      "prices": [
-        643.0,
-        524.0,
-        500.0,
-        473.0,
-        430.0,
-        385.0,
-        418.0,
-        415.0
-      ],
-      "lastCandleAt": "2025-10-24T00:00:00+00:00",
-      "points": 8
     },
     {
       "status": "ok",
@@ -89,8 +82,8 @@
       "englishName": "Zora",
       "listingDate": "2025-10-17",
       "listingPrice": 149.0,
-      "currentPrice": 138.0,
-      "change": -7.38255033557047,
+      "currentPrice": 143.0,
+      "change": -4.026845637583892,
       "prices": [
         149.0,
         145.0,
@@ -99,7 +92,30 @@
         150.0,
         140.0,
         137.0,
-        138.0
+        143.0
+      ],
+      "lastCandleAt": "2025-10-24T00:00:00+00:00",
+      "points": 8
+    },
+    {
+      "status": "ok",
+      "code": "CRIX.UPBIT.KRW-ZBT",
+      "pair": "ZBT/KRW",
+      "koreanName": "제로베이스",
+      "englishName": "ZEROBASE",
+      "listingDate": "2025-10-17",
+      "listingPrice": 643.0,
+      "currentPrice": 402.0,
+      "change": -37.480559875583204,
+      "prices": [
+        643.0,
+        524.0,
+        500.0,
+        473.0,
+        430.0,
+        385.0,
+        418.0,
+        402.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 8
@@ -112,8 +128,8 @@
       "englishName": "Yield Guild Games",
       "listingDate": "2025-10-15",
       "listingPrice": 255.0,
-      "currentPrice": 208.0,
-      "change": -18.43137254901961,
+      "currentPrice": 213.0,
+      "change": -16.470588235294116,
       "prices": [
         255.0,
         248.0,
@@ -124,7 +140,7 @@
         211.0,
         203.0,
         206.0,
-        208.0
+        213.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 10
@@ -137,8 +153,8 @@
       "englishName": "Infinit",
       "listingDate": "2025-10-10",
       "listingPrice": 290.0,
-      "currentPrice": 204.0,
-      "change": -29.655172413793103,
+      "currentPrice": 200.0,
+      "change": -31.03448275862069,
       "prices": [
         290.0,
         255.0,
@@ -154,7 +170,7 @@
         204.0,
         193.0,
         203.0,
-        204.0
+        200.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 15
@@ -167,8 +183,8 @@
       "englishName": "Doodles",
       "listingDate": "2025-10-07",
       "listingPrice": 15.7,
-      "currentPrice": 10.1,
-      "change": -35.6687898089172,
+      "currentPrice": 9.65,
+      "change": -38.53503184713375,
       "prices": [
         15.7,
         14.6,
@@ -187,7 +203,7 @@
         9.04,
         8.8,
         9.53,
-        10.1
+        9.65
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 18
@@ -200,8 +216,8 @@
       "englishName": "DoubleZero",
       "listingDate": "2025-10-02",
       "listingPrice": 849.0,
-      "currentPrice": 359.0,
-      "change": -57.714958775029444,
+      "currentPrice": 355.0,
+      "change": -58.18610129564193,
       "prices": [
         849.0,
         742.0,
@@ -225,7 +241,7 @@
         390.0,
         347.0,
         352.0,
-        359.0
+        355.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 23
@@ -238,8 +254,8 @@
       "englishName": "Somnia",
       "listingDate": "2025-10-01",
       "listingPrice": 1242.0,
-      "currentPrice": 777.0,
-      "change": -37.43961352657005,
+      "currentPrice": 771.0,
+      "change": -37.92270531400966,
       "prices": [
         1242.0,
         1146.0,
@@ -264,7 +280,7 @@
         738.0,
         719.0,
         772.0,
-        777.0
+        771.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 24
@@ -277,8 +293,8 @@
       "englishName": "SuperVerse",
       "listingDate": "2025-09-29",
       "listingPrice": 958.0,
-      "currentPrice": 581.0,
-      "change": -39.35281837160752,
+      "currentPrice": 582.0,
+      "change": -39.24843423799583,
       "prices": [
         958.0,
         882.0,
@@ -305,7 +321,7 @@
         581.0,
         563.0,
         580.0,
-        581.0
+        582.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 26
@@ -318,8 +334,8 @@
       "englishName": "Falcon Finance",
       "listingDate": "2025-09-29",
       "listingPrice": 403.0,
-      "currentPrice": 232.0,
-      "change": -42.4317617866005,
+      "currentPrice": 256.0,
+      "change": -36.47642679900744,
       "prices": [
         403.0,
         274.0,
@@ -346,7 +362,7 @@
         241.0,
         211.0,
         233.0,
-        232.0
+        256.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 26
@@ -359,8 +375,8 @@
       "englishName": "Mira Network",
       "listingDate": "2025-09-26",
       "listingPrice": 2095.0,
-      "currentPrice": 474.0,
-      "change": -77.3747016706444,
+      "currentPrice": 493.0,
+      "change": -76.46778042959427,
       "prices": [
         2095.0,
         1762.0,
@@ -390,7 +406,7 @@
         473.0,
         434.0,
         470.0,
-        474.0
+        493.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 29
@@ -403,8 +419,8 @@
       "englishName": "Plasma",
       "listingDate": "2025-09-25",
       "listingPrice": 1855.0,
-      "currentPrice": 542.0,
-      "change": -70.78167115902964,
+      "currentPrice": 573.0,
+      "change": -69.11051212938006,
       "prices": [
         1855.0,
         1759.0,
@@ -435,7 +451,7 @@
         600.0,
         520.0,
         545.0,
-        542.0
+        573.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 30
@@ -448,8 +464,8 @@
       "englishName": "Fluid",
       "listingDate": "2025-09-24",
       "listingPrice": 9920.0,
-      "currentPrice": 6745.0,
-      "change": -32.006048387096776,
+      "currentPrice": 6835.0,
+      "change": -31.098790322580644,
       "prices": [
         9920.0,
         8115.0,
@@ -481,7 +497,7 @@
         6755.0,
         6690.0,
         6790.0,
-        6745.0
+        6835.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 31
@@ -494,8 +510,8 @@
       "englishName": "SUN",
       "listingDate": "2025-09-22",
       "listingPrice": 46.2,
-      "currentPrice": 34.7,
-      "change": -24.89177489177489,
+      "currentPrice": 34.1,
+      "change": -26.190476190476193,
       "prices": [
         46.2,
         44.2,
@@ -529,7 +545,7 @@
         35.3,
         35.2,
         34.7,
-        34.7
+        34.1
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 33
@@ -542,8 +558,8 @@
       "englishName": "0G",
       "listingDate": "2025-09-22",
       "listingPrice": 7295.0,
-      "currentPrice": 2641.0,
-      "change": -63.79712131596984,
+      "currentPrice": 2644.0,
+      "change": -63.75599725839616,
       "prices": [
         7295.0,
         8290.0,
@@ -577,7 +593,7 @@
         2856.0,
         2730.0,
         2652.0,
-        2641.0
+        2644.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 33
@@ -590,8 +606,8 @@
       "englishName": "Lagrange",
       "listingDate": "2025-09-18",
       "listingPrice": 552.0,
-      "currentPrice": 659.0,
-      "change": 19.384057971014492,
+      "currentPrice": 676.0,
+      "change": 22.463768115942027,
       "prices": [
         552.0,
         517.0,
@@ -629,7 +645,7 @@
         640.0,
         625.0,
         652.0,
-        659.0
+        676.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 37
@@ -642,8 +658,8 @@
       "englishName": "Lombard",
       "listingDate": "2025-09-18",
       "listingPrice": 1469.0,
-      "currentPrice": 986.0,
-      "change": -32.879509870660314,
+      "currentPrice": 970.0,
+      "change": -33.96868618107556,
       "prices": [
         1469.0,
         1306.0,
@@ -681,7 +697,7 @@
         951.0,
         1005.0,
         980.0,
-        986.0
+        970.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 37
@@ -694,8 +710,8 @@
       "englishName": "Toshi",
       "listingDate": "2025-09-17",
       "listingPrice": 1.26,
-      "currentPrice": 1.09,
-      "change": -13.492063492063485,
+      "currentPrice": 1.08,
+      "change": -14.28571428571428,
       "prices": [
         1.26,
         1.2,
@@ -734,7 +750,7 @@
         1.08,
         1.04,
         1.07,
-        1.09
+        1.08
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 38
@@ -747,8 +763,8 @@
       "englishName": "Avantis",
       "listingDate": "2025-09-15",
       "listingPrice": 1736.0,
-      "currentPrice": 1008.0,
-      "change": -41.935483870967744,
+      "currentPrice": 1167.0,
+      "change": -32.776497695852534,
       "prices": [
         1736.0,
         1417.0,
@@ -789,7 +805,7 @@
         908.0,
         993.0,
         1015.0,
-        1008.0
+        1167.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 40
@@ -802,8 +818,8 @@
       "englishName": "Boundless",
       "listingDate": "2025-09-15",
       "listingPrice": 1309.0,
-      "currentPrice": 355.0,
-      "change": -72.88006111535523,
+      "currentPrice": 356.0,
+      "change": -72.80366692131398,
       "prices": [
         1309.0,
         1119.0,
@@ -844,69 +860,10 @@
         337.0,
         321.0,
         360.0,
-        355.0
+        356.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 40
-    },
-    {
-      "status": "ok",
-      "code": "CRIX.UPBIT.KRW-HOLO",
-      "pair": "HOLO/KRW",
-      "koreanName": "홀로월드에이아이",
-      "englishName": "Holoworld AI",
-      "listingDate": "2025-09-11",
-      "listingPrice": 647.0,
-      "currentPrice": 210.0,
-      "change": -67.54250386398763,
-      "prices": [
-        647.0,
-        600.0,
-        615.0,
-        602.0,
-        539.0,
-        544.0,
-        544.0,
-        538.0,
-        499.0,
-        515.0,
-        530.0,
-        440.0,
-        441.0,
-        441.0,
-        386.0,
-        386.0,
-        379.0,
-        382.0,
-        315.0,
-        283.0,
-        289.0,
-        295.0,
-        321.0,
-        311.0,
-        323.0,
-        336.0,
-        305.0,
-        309.0,
-        286.0,
-        205.0,
-        200.0,
-        218.0,
-        232.0,
-        219.0,
-        213.0,
-        216.0,
-        202.0,
-        201.0,
-        203.0,
-        214.0,
-        214.0,
-        204.0,
-        208.0,
-        210.0
-      ],
-      "lastCandleAt": "2025-10-24T00:00:00+00:00",
-      "points": 44
     },
     {
       "status": "ok",
@@ -916,8 +873,8 @@
       "englishName": "Pump.fun",
       "listingDate": "2025-09-11",
       "listingPrice": 8.19,
-      "currentPrice": 5.77,
-      "change": -29.54822954822955,
+      "currentPrice": 6.21,
+      "change": -24.17582417582417,
       "prices": [
         8.19,
         8.61,
@@ -962,7 +919,66 @@
         5.58,
         5.24,
         5.71,
-        5.77
+        6.21
+      ],
+      "lastCandleAt": "2025-10-24T00:00:00+00:00",
+      "points": 44
+    },
+    {
+      "status": "ok",
+      "code": "CRIX.UPBIT.KRW-HOLO",
+      "pair": "HOLO/KRW",
+      "koreanName": "홀로월드에이아이",
+      "englishName": "Holoworld AI",
+      "listingDate": "2025-09-11",
+      "listingPrice": 647.0,
+      "currentPrice": 212.0,
+      "change": -67.23338485316846,
+      "prices": [
+        647.0,
+        600.0,
+        615.0,
+        602.0,
+        539.0,
+        544.0,
+        544.0,
+        538.0,
+        499.0,
+        515.0,
+        530.0,
+        440.0,
+        441.0,
+        441.0,
+        386.0,
+        386.0,
+        379.0,
+        382.0,
+        315.0,
+        283.0,
+        289.0,
+        295.0,
+        321.0,
+        311.0,
+        323.0,
+        336.0,
+        305.0,
+        309.0,
+        286.0,
+        205.0,
+        200.0,
+        218.0,
+        232.0,
+        219.0,
+        213.0,
+        216.0,
+        202.0,
+        201.0,
+        203.0,
+        214.0,
+        214.0,
+        204.0,
+        208.0,
+        212.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 44
@@ -975,8 +991,8 @@
       "englishName": "OpenLedger",
       "listingDate": "2025-09-10",
       "listingPrice": 1447.0,
-      "currentPrice": 537.0,
-      "change": -62.88873531444368,
+      "currentPrice": 556.0,
+      "change": -61.575673807878374,
       "prices": [
         1447.0,
         1262.0,
@@ -1022,7 +1038,7 @@
         568.0,
         534.0,
         544.0,
-        537.0
+        556.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 45
@@ -1035,8 +1051,8 @@
       "englishName": "Linea",
       "listingDate": "2025-09-10",
       "listingPrice": 34.6,
-      "currentPrice": 23.6,
-      "change": -31.79190751445087,
+      "currentPrice": 23.3,
+      "change": -32.65895953757226,
       "prices": [
         34.6,
         32.4,
@@ -1082,7 +1098,7 @@
         23.9,
         23.1,
         23.5,
-        23.6
+        23.3
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 45
@@ -1095,8 +1111,8 @@
       "englishName": "FLock.io",
       "listingDate": "2025-09-09",
       "listingPrice": 569.0,
-      "currentPrice": 288.0,
-      "change": -49.38488576449912,
+      "currentPrice": 301.0,
+      "change": -47.10017574692443,
       "prices": [
         569.0,
         514.0,
@@ -1143,7 +1159,7 @@
         293.0,
         266.0,
         278.0,
-        288.0
+        301.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 46
@@ -1156,8 +1172,8 @@
       "englishName": "Worldcoin",
       "listingDate": "2025-09-09",
       "listingPrice": 2691.0,
-      "currentPrice": 1300.0,
-      "change": -51.690821256038646,
+      "currentPrice": 1340.0,
+      "change": -50.20438498699368,
       "prices": [
         2691.0,
         2604.0,
@@ -1204,7 +1220,7 @@
         1337.0,
         1281.0,
         1301.0,
-        1300.0
+        1340.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 46
@@ -1217,8 +1233,8 @@
       "englishName": "RedStone",
       "listingDate": "2025-09-05",
       "listingPrice": 931.0,
-      "currentPrice": 523.0,
-      "change": -43.82384532760473,
+      "currentPrice": 512.0,
+      "change": -45.005370569280345,
       "prices": [
         931.0,
         918.0,
@@ -1269,7 +1285,7 @@
         521.0,
         496.0,
         518.0,
-        523.0
+        512.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 50
@@ -1282,8 +1298,8 @@
       "englishName": "World Liberty Financial",
       "listingDate": "2025-09-01",
       "listingPrice": 326.0,
-      "currentPrice": 214.0,
-      "change": -34.355828220858896,
+      "currentPrice": 204.0,
+      "change": -37.423312883435585,
       "prices": [
         326.0,
         316.0,
@@ -1338,7 +1354,7 @@
         190.0,
         185.0,
         214.0,
-        214.0
+        204.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 54
@@ -1351,8 +1367,8 @@
       "englishName": "World Liberty Financial USD",
       "listingDate": "2025-09-01",
       "listingPrice": 1393.0,
-      "currentPrice": 1505.0,
-      "change": 8.040201005025125,
+      "currentPrice": 1493.0,
+      "change": 7.178750897343862,
       "prices": [
         1393.0,
         1391.0,
@@ -1407,7 +1423,7 @@
         1502.0,
         1516.0,
         1506.0,
-        1505.0
+        1493.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 54
@@ -1420,8 +1436,8 @@
       "englishName": "Treehouse",
       "listingDate": "2025-08-28",
       "listingPrice": 546.0,
-      "currentPrice": 256.0,
-      "change": -53.11355311355312,
+      "currentPrice": 273.0,
+      "change": -50.0,
       "prices": [
         546.0,
         502.0,
@@ -1480,7 +1496,7 @@
         256.0,
         245.0,
         253.0,
-        256.0
+        273.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 58
@@ -1493,8 +1509,8 @@
       "englishName": "Aerodrome Finance",
       "listingDate": "2025-08-22",
       "listingPrice": 2074.0,
-      "currentPrice": 1206.0,
-      "change": -41.85149469623915,
+      "currentPrice": 1223.0,
+      "change": -41.03182256509161,
       "prices": [
         2074.0,
         2063.0,
@@ -1559,7 +1575,7 @@
         1200.0,
         1176.0,
         1197.0,
-        1206.0
+        1223.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 64
@@ -1572,8 +1588,8 @@
       "englishName": "API3",
       "listingDate": "2025-08-19",
       "listingPrice": 1906.0,
-      "currentPrice": 1045.0,
-      "change": -45.17313746065057,
+      "currentPrice": 1034.0,
+      "change": -45.750262329485835,
       "prices": [
         1906.0,
         2000.0,
@@ -1641,7 +1657,7 @@
         1049.0,
         1014.0,
         1043.0,
-        1045.0
+        1034.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 67
@@ -1654,8 +1670,8 @@
       "englishName": "Cyber",
       "listingDate": "2025-08-12",
       "listingPrice": 4097.0,
-      "currentPrice": 1619.0,
-      "change": -60.4832804491091,
+      "currentPrice": 1612.0,
+      "change": -60.65413717354161,
       "prices": [
         4097.0,
         3992.0,
@@ -1730,7 +1746,7 @@
         1607.0,
         1573.0,
         1608.0,
-        1619.0
+        1612.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 74
@@ -1743,8 +1759,8 @@
       "englishName": "Story",
       "listingDate": "2025-08-08",
       "listingPrice": 9010.0,
-      "currentPrice": 7785.0,
-      "change": -13.596004439511653,
+      "currentPrice": 8060.0,
+      "change": -10.543840177580465,
       "prices": [
         9010.0,
         9045.0,
@@ -1823,7 +1839,7 @@
         8125.0,
         7825.0,
         7720.0,
-        7785.0
+        8060.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 78
@@ -1836,8 +1852,8 @@
       "englishName": "Succinct",
       "listingDate": "2025-08-06",
       "listingPrice": 1529.0,
-      "currentPrice": 1402.0,
-      "change": -8.306082406801831,
+      "currentPrice": 1495.0,
+      "change": -2.2236756049705693,
       "prices": [
         1529.0,
         1380.0,
@@ -1918,7 +1934,7 @@
         1225.0,
         1196.0,
         1300.0,
-        1402.0
+        1495.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 80
@@ -1931,8 +1947,8 @@
       "englishName": "Nomina",
       "listingDate": "2025-07-29",
       "listingPrice": 94.28,
-      "currentPrice": 31.2,
-      "change": -66.90708527789563,
+      "currentPrice": 30.7,
+      "change": -67.43742044972423,
       "prices": [
         94.28,
         91.46666667,
@@ -2021,7 +2037,7 @@
         33.8,
         30.6,
         31.4,
-        31.2
+        30.7
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 88
@@ -2034,8 +2050,8 @@
       "englishName": "Optimism",
       "listingDate": "2025-07-28",
       "listingPrice": 1045.0,
-      "currentPrice": 656.0,
-      "change": -37.22488038277512,
+      "currentPrice": 669.0,
+      "change": -35.98086124401914,
       "prices": [
         1045.0,
         1006.0,
@@ -2125,7 +2141,7 @@
         654.0,
         634.0,
         651.0,
-        656.0
+        669.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 89
@@ -2138,8 +2154,8 @@
       "englishName": "Maple Finance",
       "listingDate": "2025-07-25",
       "listingPrice": 787.0,
-      "currentPrice": 564.0,
-      "change": -28.335451080050827,
+      "currentPrice": 565.0,
+      "change": -28.208386277001267,
       "prices": [
         787.0,
         755.6,
@@ -2232,7 +2248,7 @@
         535.0,
         527.0,
         562.0,
-        564.0
+        565.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 92
@@ -2245,8 +2261,8 @@
       "englishName": "Caldera",
       "listingDate": "2025-07-17",
       "listingPrice": 2326.0,
-      "currentPrice": 507.0,
-      "change": -78.20292347377472,
+      "currentPrice": 496.0,
+      "change": -78.67583834909716,
       "prices": [
         2326.0,
         1860.0,
@@ -2347,7 +2363,7 @@
         562.0,
         516.0,
         507.0,
-        507.0
+        496.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 100
@@ -2360,8 +2376,8 @@
       "englishName": "Ethena",
       "listingDate": "2025-07-11",
       "listingPrice": 454.4,
-      "currentPrice": 685.0,
-      "change": 50.74823943661973,
+      "currentPrice": 717.0,
+      "change": 57.79049295774649,
       "prices": [
         454.4,
         437.8,
@@ -2468,7 +2484,7 @@
         684.0,
         658.0,
         684.0,
-        685.0
+        717.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 106
@@ -2481,8 +2497,8 @@
       "englishName": "Hyperlane",
       "listingDate": "2025-07-10",
       "listingPrice": 783.9,
-      "currentPrice": 292.0,
-      "change": -62.7503508100523,
+      "currentPrice": 293.0,
+      "change": -62.6227835183059,
       "prices": [
         783.9,
         754.0,
@@ -2590,7 +2606,7 @@
         294.0,
         277.0,
         291.0,
-        292.0
+        293.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 107
@@ -2603,8 +2619,8 @@
       "englishName": "Moo Deng",
       "listingDate": "2025-07-03",
       "listingPrice": 254.9,
-      "currentPrice": 168.0,
-      "change": -34.09180070615928,
+      "currentPrice": 170.0,
+      "change": -33.30717928599451,
       "prices": [
         254.9,
         249.1,
@@ -2719,7 +2735,7 @@
         167.0,
         163.0,
         167.0,
-        168.0
+        170.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 114
@@ -2732,8 +2748,8 @@
       "englishName": "Sahara AI",
       "listingDate": "2025-06-26",
       "listingPrice": 131.6,
-      "currentPrice": 119.0,
-      "change": -9.574468085106378,
+      "currentPrice": 118.0,
+      "change": -10.334346504559267,
       "prices": [
         131.6,
         115.8,
@@ -2855,7 +2871,7 @@
         111.0,
         112.0,
         119.0,
-        119.0
+        118.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 121
@@ -2868,8 +2884,8 @@
       "englishName": "Newton Protocol",
       "listingDate": "2025-06-24",
       "listingPrice": 731.3,
-      "currentPrice": 226.0,
-      "change": -69.09613017913306,
+      "currentPrice": 230.0,
+      "change": -68.54915903186107,
       "prices": [
         731.3,
         603.0,
@@ -2993,7 +3009,7 @@
         221.0,
         216.0,
         221.0,
-        226.0
+        230.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 123
@@ -3006,8 +3022,8 @@
       "englishName": "Raydium",
       "listingDate": "2025-06-19",
       "listingPrice": 3076.0,
-      "currentPrice": 2688.0,
-      "change": -12.613784135240572,
+      "currentPrice": 2709.0,
+      "change": -11.931079323797139,
       "prices": [
         3076.0,
         2845.0,
@@ -3136,7 +3152,7 @@
         2668.0,
         2526.0,
         2670.0,
-        2688.0
+        2709.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 128
@@ -3149,8 +3165,8 @@
       "englishName": "Altlayer",
       "listingDate": "2025-06-16",
       "listingPrice": 51.5,
-      "currentPrice": 29.0,
-      "change": -43.689320388349515,
+      "currentPrice": 28.8,
+      "change": -44.07766990291262,
       "prices": [
         51.5,
         48.87,
@@ -3282,7 +3298,7 @@
         28.7,
         27.9,
         28.8,
-        29.0
+        28.8
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 131
@@ -3295,8 +3311,8 @@
       "englishName": "Axelar",
       "listingDate": "2025-06-10",
       "listingPrice": 721.7,
-      "currentPrice": 286.0,
-      "change": -60.371345434391024,
+      "currentPrice": 288.0,
+      "change": -60.094221975890264,
       "prices": [
         721.7,
         664.6,
@@ -3434,7 +3450,7 @@
         297.0,
         280.0,
         285.0,
-        286.0
+        288.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 137
@@ -3604,8 +3620,8 @@
       "englishName": "Livepeer",
       "listingDate": "2025-05-30",
       "listingPrice": 16660.0,
-      "currentPrice": 7510.0,
-      "change": -54.921968787515006,
+      "currentPrice": 7680.0,
+      "change": -53.9015606242497,
       "prices": [
         16660.0,
         13670.0,
@@ -3754,7 +3770,7 @@
         7445.0,
         7260.0,
         7400.0,
-        7510.0
+        7680.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 148
@@ -3767,8 +3783,8 @@
       "englishName": "Pocket Network",
       "listingDate": "2025-05-30",
       "listingPrice": 108.4,
-      "currentPrice": 26.7,
-      "change": -75.36900369003689,
+      "currentPrice": 26.9,
+      "change": -75.18450184501845,
       "prices": [
         108.4,
         102.9,
@@ -3917,7 +3933,7 @@
         26.6,
         25.7,
         25.9,
-        26.7
+        26.9
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 148
@@ -3930,8 +3946,8 @@
       "englishName": "Sophon",
       "listingDate": "2025-05-28",
       "listingPrice": 92.71,
-      "currentPrice": 46.2,
-      "change": -50.167188005608885,
+      "currentPrice": 45.8,
+      "change": -50.59864092330925,
       "prices": [
         92.71,
         79.65,
@@ -4082,7 +4098,7 @@
         39.8,
         41.8,
         45.6,
-        46.2
+        45.8
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 150
@@ -4095,8 +4111,8 @@
       "englishName": "MANTRA",
       "listingDate": "2025-05-21",
       "listingPrice": 571.6,
-      "currentPrice": 177.0,
-      "change": -69.03428971308607,
+      "currentPrice": 176.0,
+      "change": -69.20923722883136,
       "prices": [
         571.6,
         583.2,
@@ -4254,7 +4270,7 @@
         177.0,
         169.0,
         177.0,
-        177.0
+        176.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 157
@@ -4267,8 +4283,8 @@
       "englishName": "Nexpace",
       "listingDate": "2025-05-15",
       "listingPrice": 3704.0,
-      "currentPrice": 519.0,
-      "change": -85.98812095032397,
+      "currentPrice": 517.0,
+      "change": -86.04211663066955,
       "prices": [
         3704.0,
         3629.0,
@@ -4432,7 +4448,7 @@
         517.0,
         502.0,
         519.0,
-        519.0
+        517.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 163
@@ -4445,8 +4461,8 @@
       "englishName": "Pudgy Penguins",
       "listingDate": "2025-05-09",
       "listingPrice": 20.09,
-      "currentPrice": 31.0,
-      "change": 54.305624688899954,
+      "currentPrice": 31.5,
+      "change": 56.79442508710801,
       "prices": [
         20.09,
         20.88,
@@ -4616,7 +4632,7 @@
         32.1,
         30.3,
         30.8,
-        31.0
+        31.5
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 169
@@ -4629,8 +4645,8 @@
       "englishName": "Celestia",
       "listingDate": "2025-05-08",
       "listingPrice": 3840.0,
-      "currentPrice": 1518.0,
-      "change": -60.46875000000001,
+      "currentPrice": 1543.0,
+      "change": -59.81770833333333,
       "prices": [
         3840.0,
         4260.0,
@@ -4801,7 +4817,7 @@
         1507.0,
         1458.0,
         1509.0,
-        1518.0
+        1543.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 170
@@ -4814,8 +4830,8 @@
       "englishName": "Sign",
       "listingDate": "2025-04-29",
       "listingPrice": 145.9,
-      "currentPrice": 60.7,
-      "change": -58.396161754626455,
+      "currentPrice": 61.3,
+      "change": -57.98492117888966,
       "prices": [
         145.9,
         138.1,
@@ -4995,7 +5011,7 @@
         65.0,
         59.4,
         60.4,
-        60.7
+        61.3
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 179
@@ -5008,8 +5024,8 @@
       "englishName": "DeepBook",
       "listingDate": "2025-04-22",
       "listingPrice": 256.3,
-      "currentPrice": 120.0,
-      "change": -53.17986734295748,
+      "currentPrice": 124.0,
+      "change": -51.61919625438939,
       "prices": [
         256.3,
         261.2,
@@ -5196,7 +5212,7 @@
         122.0,
         119.0,
         120.0,
-        120.0
+        124.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 186
@@ -5209,8 +5225,8 @@
       "englishName": "WalletConnect",
       "listingDate": "2025-04-16",
       "listingPrice": 630.7,
-      "currentPrice": 250.0,
-      "change": -60.36150309180276,
+      "currentPrice": 251.0,
+      "change": -60.20294910416998,
       "prices": [
         630.7,
         580.0,
@@ -5403,7 +5419,7 @@
         251.0,
         245.0,
         248.0,
-        250.0
+        251.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 192
@@ -5416,8 +5432,8 @@
       "englishName": "Filecoin",
       "listingDate": "2025-04-04",
       "listingPrice": 4071.0,
-      "currentPrice": 2346.0,
-      "change": -42.3728813559322,
+      "currentPrice": 2344.0,
+      "change": -42.42200933431589,
       "prices": [
         4071.0,
         3986.0,
@@ -5622,7 +5638,7 @@
         2350.0,
         2300.0,
         2338.0,
-        2346.0
+        2344.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 204
@@ -5635,8 +5651,8 @@
       "englishName": "Compound",
       "listingDate": "2025-04-01",
       "listingPrice": 65880.0,
-      "currentPrice": 56950.0,
-      "change": -13.554948391013966,
+      "currentPrice": 56650.0,
+      "change": -14.010321797207043,
       "prices": [
         65880.0,
         66060.0,
@@ -5844,7 +5860,7 @@
         55050.0,
         54900.0,
         56200.0,
-        56950.0
+        56650.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 207
@@ -5857,8 +5873,8 @@
       "englishName": "Walrus",
       "listingDate": "2025-03-28",
       "listingPrice": 713.8,
-      "currentPrice": 373.0,
-      "change": -47.74446623704118,
+      "currentPrice": 371.0,
+      "change": -48.02465676660129,
       "prices": [
         713.8,
         601.1,
@@ -6070,7 +6086,7 @@
         356.0,
         347.0,
         378.0,
-        373.0
+        371.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 211
@@ -6083,8 +6099,8 @@
       "englishName": "Orca",
       "listingDate": "2025-03-21",
       "listingPrice": 5043.0,
-      "currentPrice": 2163.0,
-      "change": -57.10886377156454,
+      "currentPrice": 2167.0,
+      "change": -57.02954590521515,
       "prices": [
         5043.0,
         4162.0,
@@ -6303,7 +6319,7 @@
         2141.0,
         2095.0,
         2163.0,
-        2163.0
+        2167.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 218
@@ -6316,8 +6332,8 @@
       "englishName": "Arkham",
       "listingDate": "2025-03-11",
       "listingPrice": 769.4,
-      "currentPrice": 532.0,
-      "change": -30.85521185339225,
+      "currentPrice": 550.0,
+      "change": -28.51572654016116,
       "prices": [
         769.4,
         774.1,
@@ -6546,7 +6562,7 @@
         534.0,
         513.0,
         530.0,
-        532.0
+        550.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 228
@@ -6559,8 +6575,8 @@
       "englishName": "KAITO",
       "listingDate": "2025-03-05",
       "listingPrice": 2680.0,
-      "currentPrice": 1587.0,
-      "change": -40.78358208955224,
+      "currentPrice": 1592.0,
+      "change": -40.59701492537313,
       "prices": [
         2680.0,
         2425.0,
@@ -6795,7 +6811,7 @@
         1552.0,
         1529.0,
         1578.0,
-        1587.0
+        1592.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 234
@@ -6808,8 +6824,8 @@
       "englishName": "CoW Protocol",
       "listingDate": "2025-02-25",
       "listingPrice": 607.4,
-      "currentPrice": 342.0,
-      "change": -43.69443529799143,
+      "currentPrice": 339.0,
+      "change": -44.188343760289754,
       "prices": [
         607.4,
         576.4,
@@ -7052,7 +7068,7 @@
         344.0,
         333.0,
         338.0,
-        342.0
+        339.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 242
@@ -7065,8 +7081,8 @@
       "englishName": "Jito",
       "listingDate": "2025-02-21",
       "listingPrice": 4354.0,
-      "currentPrice": 1637.0,
-      "change": -62.40238860817639,
+      "currentPrice": 1690.0,
+      "change": -61.18511713367019,
       "prices": [
         4354.0,
         4360.0,
@@ -7313,7 +7329,7 @@
         1612.0,
         1569.0,
         1629.0,
-        1637.0
+        1690.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 246
@@ -7326,8 +7342,8 @@
       "englishName": "Official Trump",
       "listingDate": "2025-02-13",
       "listingPrice": 24580.0,
-      "currentPrice": 8850.0,
-      "change": -63.99511798209927,
+      "currentPrice": 8905.0,
+      "change": -63.771358828315705,
       "prices": [
         24580.0,
         32520.0,
@@ -7582,7 +7598,7 @@
         8845.0,
         8655.0,
         8815.0,
-        8850.0
+        8905.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 254
@@ -7865,8 +7881,8 @@
       "englishName": "Berachain",
       "listingDate": "2025-02-06",
       "listingPrice": 13720.0,
-      "currentPrice": 3009.0,
-      "change": -78.06851311953352,
+      "currentPrice": 2860.0,
+      "change": -79.1545189504373,
       "prices": [
         13720.0,
         11920.0,
@@ -8128,7 +8144,7 @@
         2890.0,
         2963.0,
         3025.0,
-        3009.0
+        2860.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 261
@@ -8141,8 +8157,8 @@
       "englishName": "Virtuals Protocol",
       "listingDate": "2025-01-31",
       "listingPrice": 3018.0,
-      "currentPrice": 1201.0,
-      "change": -60.20543406229291,
+      "currentPrice": 1464.0,
+      "change": -51.491053677932406,
       "prices": [
         3018.0,
         2507.0,
@@ -8410,7 +8426,7 @@
         1164.0,
         1116.0,
         1176.0,
-        1201.0
+        1464.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 267
@@ -8423,8 +8439,8 @@
       "englishName": "Animecoin",
       "listingDate": "2025-01-24",
       "listingPrice": 92.97,
-      "currentPrice": 13.9,
-      "change": -85.0489405184468,
+      "currentPrice": 14.4,
+      "change": -84.5111326234269,
       "prices": [
         92.97,
         85.9,
@@ -8699,7 +8715,7 @@
         14.2,
         13.7,
         13.9,
-        13.9
+        14.4
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 274
@@ -9309,8 +9325,8 @@
       "englishName": "Vana",
       "listingDate": "2024-12-17",
       "listingPrice": 26060.0,
-      "currentPrice": 3931.0,
-      "change": -84.91557943207981,
+      "currentPrice": 3925.0,
+      "change": -84.93860322333077,
       "prices": [
         26060.0,
         23900.0,
@@ -9623,7 +9639,7 @@
         3952.0,
         3817.0,
         3923.0,
-        3931.0
+        3925.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 312
@@ -9636,8 +9652,8 @@
       "englishName": "Moca Network",
       "listingDate": "2024-12-16",
       "listingPrice": 246.6,
-      "currentPrice": 78.9,
-      "change": -68.00486618004867,
+      "currentPrice": 81.6,
+      "change": -66.90997566909975,
       "prices": [
         246.6,
         192.2,
@@ -9951,7 +9967,7 @@
         77.0,
         75.2,
         78.5,
-        78.9
+        81.6
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 313
@@ -9964,8 +9980,8 @@
       "englishName": "Magic Eden",
       "listingDate": "2024-12-11",
       "listingPrice": 7687.0,
-      "currentPrice": 648.0,
-      "change": -91.57018342656433,
+      "currentPrice": 655.0,
+      "change": -91.47912059320932,
       "prices": [
         7687.0,
         6422.0,
@@ -10284,7 +10300,7 @@
         656.0,
         638.0,
         647.0,
-        648.0
+        655.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 318
@@ -10297,8 +10313,8 @@
       "englishName": "Movement",
       "listingDate": "2024-12-10",
       "listingPrice": 1060.0,
-      "currentPrice": 111.0,
-      "change": -89.52830188679245,
+      "currentPrice": 110.0,
+      "change": -89.62264150943396,
       "prices": [
         1060.0,
         1066.0,
@@ -10618,7 +10634,7 @@
         113.0,
         108.0,
         110.0,
-        111.0
+        110.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 319
@@ -10631,8 +10647,8 @@
       "englishName": "Render Token",
       "listingDate": "2024-12-05",
       "listingPrice": 14300.0,
-      "currentPrice": 3729.0,
-      "change": -73.92307692307692,
+      "currentPrice": 3698.0,
+      "change": -74.13986013986013,
       "prices": [
         14300.0,
         14600.0,
@@ -10957,7 +10973,7 @@
         3727.0,
         3607.0,
         3700.0,
-        3729.0
+        3698.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 324
@@ -10970,8 +10986,8 @@
       "englishName": "Bonk",
       "listingDate": "2024-11-20",
       "listingPrice": 0.07012,
-      "currentPrice": 0.0219,
-      "change": -68.76782658300057,
+      "currentPrice": 0.0222,
+      "change": -68.33998859098689,
       "prices": [
         0.07012,
         0.07474,
@@ -11311,7 +11327,7 @@
         0.0216,
         0.021,
         0.0219,
-        0.0219
+        0.0222
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 339
@@ -11324,8 +11340,8 @@
       "englishName": "Pepe",
       "listingDate": "2024-11-14",
       "listingPrice": 0.02925,
-      "currentPrice": 0.0106,
-      "change": -63.760683760683754,
+      "currentPrice": 0.0108,
+      "change": -63.07692307692307,
       "prices": [
         0.02925,
         0.03284,
@@ -11671,7 +11687,7 @@
         0.0105,
         0.0102,
         0.0104,
-        0.0106
+        0.0108
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 345
@@ -11684,8 +11700,8 @@
       "englishName": "Adventure Gold",
       "listingDate": "2024-11-13",
       "listingPrice": 2821.0,
-      "currentPrice": 622.0,
-      "change": -77.95108117688763,
+      "currentPrice": 619.0,
+      "change": -78.05742644452322,
       "prices": [
         2821.0,
         2048.0,
@@ -12032,7 +12048,7 @@
         625.0,
         600.0,
         619.0,
-        622.0
+        619.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 346
@@ -12045,8 +12061,8 @@
       "englishName": "Drift",
       "listingDate": "2024-11-08",
       "listingPrice": 2037.0,
-      "currentPrice": 735.0,
-      "change": -63.91752577319587,
+      "currentPrice": 737.0,
+      "change": -63.81934216985763,
       "prices": [
         2037.0,
         2495.0,
@@ -12398,7 +12414,7 @@
         737.0,
         705.0,
         729.0,
-        735.0
+        737.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 351
@@ -12411,8 +12427,8 @@
       "englishName": "Safe",
       "listingDate": "2024-10-24",
       "listingPrice": 1851.0,
-      "currentPrice": 386.0,
-      "change": -79.14640734737979,
+      "currentPrice": 377.0,
+      "change": -79.63263101026472,
       "prices": [
         1851.0,
         2099.0,
@@ -12779,7 +12795,7 @@
         397.0,
         384.0,
         385.0,
-        386.0
+        377.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 366
@@ -12792,8 +12808,8 @@
       "englishName": "Uniswap",
       "listingDate": "2024-10-22",
       "listingPrice": 11030.0,
-      "currentPrice": 9500.0,
-      "change": -13.871260199456028,
+      "currentPrice": 9325.0,
+      "change": -15.457842248413417,
       "prices": [
         11030.0,
         10880.0,
@@ -13162,7 +13178,7 @@
         9435.0,
         9140.0,
         9490.0,
-        9500.0
+        9325.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 368
@@ -13559,8 +13575,8 @@
       "englishName": "Injective",
       "listingDate": "2024-10-17",
       "listingPrice": 29090.0,
-      "currentPrice": 12690.0,
-      "change": -56.37676177380543,
+      "currentPrice": 12680.0,
+      "change": -56.41113784805775,
       "prices": [
         29090.0,
         30030.0,
@@ -13934,7 +13950,7 @@
         12710.0,
         12450.0,
         12610.0,
-        12690.0
+        12680.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 373
@@ -13947,8 +13963,8 @@
       "englishName": "CARV",
       "listingDate": "2024-10-15",
       "listingPrice": 1361.0,
-      "currentPrice": 225.0,
-      "change": -83.46803820720059,
+      "currentPrice": 228.0,
+      "change": -83.24761204996327,
       "prices": [
         1361.0,
         1272.0,
@@ -14324,7 +14340,7 @@
         232.0,
         221.0,
         224.0,
-        225.0
+        228.0
       ],
       "lastCandleAt": "2025-10-24T00:00:00+00:00",
       "points": 375
