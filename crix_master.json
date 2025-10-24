@@ -13547,5 +13547,20 @@
     "orderUnitVersion": "v1",
     "timestamp": 1761115490000,
     "pair": "CPOOL/USDT"
+  },
+  {
+    "code": "CRIX.UPBIT.KRW-ORDER",
+    "localName": "오덜리",
+    "koreanName": "오덜리",
+    "englishName": "Orderly",
+    "baseCurrencyCode": "ORDER",
+    "quoteCurrencyCode": "KRW",
+    "exchange": "UPBIT",
+    "marketState": "ACTIVE",
+    "listingDate": "2025-10-24",
+    "listingDateTime": "2025-10-24 07:00:00",
+    "orderUnitVersion": "v5",
+    "timestamp": 1761287134000,
+    "pair": "ORDER/KRW"
   }
 ]
