@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>업비트 신규 상장 코인 모니터</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>업비트 KRW 신규 상장 코인 추적</h1>
+        <p class="lead">최근 1·3·6·12개월 내 새로 상장한 코인을 고르고, 상장 이후 가격 흐름을 한눈에 확인하세요.</p>
+      </header>
+
+      <section>
+        <div class="controls" id="range-controls" role="group" aria-label="기간 선택">
+          <button type="button" class="active" data-months="1">1개월</button>
+          <button type="button" data-months="3">3개월</button>
+          <button type="button" data-months="6">6개월</button>
+          <button type="button" data-months="12">12개월</button>
+        </div>
+        <div id="status"></div>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col" class="sortable" aria-sort="none">
+                <button type="button" data-sort-key="name" aria-sort="none">
+                  <span>코인</span>
+                  <span class="sort-icon" aria-hidden="true">↕</span>
+                </button>
+              </th>
+              <th scope="col" class="sortable" aria-sort="none">
+                <button type="button" data-sort-key="listingDate" aria-sort="none">
+                  <span>상장일</span>
+                  <span class="sort-icon" aria-hidden="true">↕</span>
+                </button>
+              </th>
+              <th scope="col" class="sortable" aria-sort="none">
+                <button type="button" data-sort-key="listingPrice" aria-sort="none">
+                  <span>상장가</span>
+                  <span class="sort-icon" aria-hidden="true">↕</span>
+                </button>
+              </th>
+              <th scope="col" class="sortable" aria-sort="none">
+                <button type="button" data-sort-key="currentPrice" aria-sort="none">
+                  <span>현재가</span>
+                  <span class="sort-icon" aria-hidden="true">↕</span>
+                </button>
+              </th>
+              <th scope="col" class="sortable" aria-sort="none">
+                <button type="button" data-sort-key="change" aria-sort="none">
+                  <span>변화율</span>
+                  <span class="sort-icon" aria-hidden="true">↕</span>
+                </button>
+              </th>
+              <th scope="col" class="sparkline">추이</th>
+            </tr>
+          </thead>
+          <tbody id="coin-table"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>
