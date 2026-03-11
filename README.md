@@ -1,6 +1,6 @@
-# upbit-new-listing
+# Upbit Listing Monitor
 
-# Upbit Listing Dashboard
+Lightweight monitoring dashboard for new Upbit KRW listings and pre-generated market snapshots.
 
 This project serves a lightweight dashboard that visualises newly listed Upbit KRW markets.  
 Every visitor reads the same pre-generated JSON snapshots—there is no client-side polling of the
