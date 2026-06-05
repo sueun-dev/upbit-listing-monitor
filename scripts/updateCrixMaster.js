@@ -189,4 +189,5 @@ module.exports = {
   syncCrixMaster,
   readRemote,
   requestBuffer,
+  writeJson,
 };
