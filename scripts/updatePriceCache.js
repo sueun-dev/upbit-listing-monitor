@@ -6,10 +6,9 @@ const path = require("path");
 
 const {
   requestBuffer,
-  USER_AGENT: CRIX_USER_AGENT,
+  writeJson,
 } = require("./updateCrixMaster");
 
-const USER_AGENT = CRIX_USER_AGENT;
 const CANDLES_URL = "https://crix-api.upbit.com/v1/crix/candles/days?code={code}&count={count}";
 const PUBLIC_CANDLES_URL = "https://api.upbit.com/v1/candles/days?market={market}&count={count}";
 const MAX_CANDLES = 400;
@@ -218,13 +217,6 @@ function buildErrorSnapshot(coin, error) {
     listingDate: coin.listingDate.toISOString().slice(0, 10),
     error: typeof error === "string" ? error : error.message,
   };
-}
-
-async function writeJson(outputPath, payload) {
-  await fsPromises.mkdir(path.dirname(outputPath), { recursive: true });
-  const tempPath = `${outputPath}.tmp`;
-  await fsPromises.writeFile(tempPath, JSON.stringify(payload, null, 2) + "\n", "utf-8");
-  await fsPromises.rename(tempPath, outputPath);
 }
 
 async function syncPriceCache(
