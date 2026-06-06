@@ -1,49 +1,100 @@
 # Upbit Listing Monitor
 
-Lightweight monitoring dashboard for new Upbit KRW listings and pre-generated market snapshots.
+Lightweight dashboard for tracking newly listed Upbit KRW markets and visualising
+their price history since listing.
 
-This project serves a lightweight dashboard that visualises newly listed Upbit KRW markets.  
-Every visitor reads the same pre-generated JSON snapshots—there is no client-side polling of the
-Upbit API.
+The frontend is fully static: every visitor reads the same pre-generated JSON
+snapshots, so the browser never calls the Upbit API directly. A small Node.js
+toolchain refreshes those snapshots on the server.
 
-- `crix_master.json` — list of all KRW listings pulled from `https://crix-static.upbit.com/v2/crix_master`
-- `price_cache.json` — precomputed price history + summary stats for listings within the last year
+- `crix_master.json` — full Upbit listing master pulled from
+  `https://crix-static.upbit.com/v2/crix_master`
+- `price_cache.json` — precomputed daily price series and summary stats for KRW
+  markets listed within the lookback window (default 380 days)
+
+## Features
+
+- Filter newly listed coins by the last 1 / 3 / 6 / 12 months.
+- Sortable table: coin, listing date, listing price, current price, change %.
+- Inline SVG sparkline of the price trend since listing for each coin.
+- No client-side API polling — the browser only fetches `price_cache.json`.
+- Self-contained Node.js updaters (Node standard library only, no npm
+  dependencies) plus an optional auto-updating static server.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) 18 or newer (uses only the built-in
+  `http`, `https`, `fs`, `zlib`, and `path` modules — there are no third-party
+  packages to install).
 
 ## 1. Generate and refresh snapshots
 
 Run the helper scripts once to create the initial files:
 
 ```bash
-python3 scripts/update_crix_master.py
-python3 scripts/update_price_cache.py
+node scripts/updateCrixMaster.js
+node scripts/updatePriceCache.js
+```
+
+`updatePriceCache.js` reads `crix_master.json`, so always run (or update) the
+master first. Useful flags:
+
+```bash
+# crix master
+node scripts/updateCrixMaster.js --output crix_master.json
+
+# price cache
+node scripts/updatePriceCache.js \
+  --master crix_master.json \
+  --output price_cache.json \
+  --lookback-days 380 \
+  --concurrency 5 \
+  --count 400          # candles per coin (capped at 400)
 ```
 
 Schedule them on your server so the snapshots stay fresh:
 
 ```cron
 # listings every 2 hours
-0 */2 * * * /usr/bin/python3 /var/www/upbit-listing/scripts/update_crix_master.py >> /var/log/upbit-listing.log 2>&1
+0 */2 * * * /usr/bin/node /var/www/upbit-listing/scripts/updateCrixMaster.js >> /var/log/upbit-listing.log 2>&1
 # prices every 10 minutes
-*/10 * * * * /usr/bin/python3 /var/www/upbit-listing/scripts/update_price_cache.py >> /var/log/upbit-listing.log 2>&1
+*/10 * * * * /usr/bin/node /var/www/upbit-listing/scripts/updatePriceCache.js >> /var/log/upbit-listing.log 2>&1
 ```
 
-(Feel free to use `systemd` timers or another scheduler—the idea is that only the server talks to Upbit.)
+(Feel free to use `systemd` timers or another scheduler—the idea is that only the
+server talks to Upbit.)
 
 ## 2. Serve the frontend
 
 ### Option A — built-in auto-updating server
 
 ```bash
-python3 server.py --port 8009
+node server.js --port 8009
 ```
 
 What it does:
 
-- immediately refreshes both `crix_master.json` (2h cadence) and `price_cache.json` (10m cadence)
-- keeps updating them in the background
-- serves the project directory on the given port (default bind `0.0.0.0`)
+- on startup, immediately refreshes both `crix_master.json` and `price_cache.json`
+- keeps refreshing them in the background (master every 2h, prices every 10m by
+  default)
+- serves the project directory over HTTP (default port `8000`, default bind
+  `0.0.0.0`)
 
-Stop with `Ctrl+C`. For production, wrap it with a process manager (`systemd`, `pm2`, `tmux`, …).
+Common flags:
+
+| Flag | Default | Description |
+| --- | --- | --- |
+| `--port` | `8000` | HTTP port |
+| `--bind` | `0.0.0.0` | bind address |
+| `--directory` | project root | directory to serve |
+| `--master-interval` | `7200` | master refresh interval (seconds) |
+| `--price-interval` | `600` | price refresh interval (seconds) |
+| `--price-lookback` | `380` | listing lookback window (days) |
+| `--price-concurrency` | `5` | parallel candle fetches |
+| `--price-count` | `400` | candles per coin (capped at 400) |
+
+Stop with `Ctrl+C`. For production, wrap it with a process manager (`systemd`,
+`pm2`, `tmux`, …).
 
 ### Option B — any static web server
 
@@ -63,27 +114,45 @@ server {
 }
 ```
 
-As long as the cron jobs keep updating the JSON files, all users will see the latest data.
+As long as the cron jobs keep updating the JSON files, all users will see the
+latest data.
 
 ## 3. Local development quickstart
 
 ```bash
-# Optional: refresh snapshots locally
-python3 scripts/update_crix_master.py
-python3 scripts/update_price_cache.py
+# Refresh snapshots locally (requires network access to Upbit)
+node scripts/updateCrixMaster.js
+node scripts/updatePriceCache.js
 
-# Serve manually
+# Serve statically with the bundled server (auto-updates in the background)
+node server.js --port 8009
+# Visit http://localhost:8009/
+
+# …or serve the files with any static server, e.g.
 python3 -m http.server 8000
-
-# or run the auto-updating server
-python3 server.py --port 8009
-# Visit http://localhost:8000/index.html (or the port you selected)
+# Visit http://localhost:8000/index.html
 ```
 
+> If `price_cache.json` is missing the dashboard shows a load error. Run
+> `node scripts/updatePriceCache.js` once (network access required) to generate
+> it, then reload. The bundled server creates it for you on startup.
 
+## Project layout
 
-price_cache.json가 아직 생성되지 않아서 404가 뜬 거예요. 서버에서 한 번은 직접 캐시를 만들어 줘야 합니다.
+```
+.
+├── index.html                  # dashboard markup
+├── assets/
+│   ├── css/styles.css          # styles
+│   └── js/app.js               # frontend logic (reads price_cache.json)
+├── scripts/
+│   ├── updateCrixMaster.js     # fetch listing master -> crix_master.json
+│   └── updatePriceCache.js     # build price snapshots -> price_cache.json
+├── server.js                   # static server + background updaters
+├── crix_master.json            # generated listing master
+└── price_cache.json            # generated price cache
+```
 
-프로젝트 폴더에서 python3 scripts/update_price_cache.py를 실행해 최신 데이터를 받아 price_cache.json을 생성하세요. (네트워크 권한 필요)
-그다음 python3 server.py --port 8009처럼 서버를 켜면 10분마다 자동으로 다시 갱신합니다.
-위 스크립트가 성공적으로 돌면 루트 디렉터리에 price_cache.json 파일이 생기고, 프론트엔드는 더 이상 404를 내지 않습니다.
+## License
+
+Released under the [MIT License](LICENSE).
